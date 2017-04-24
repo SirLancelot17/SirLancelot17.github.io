@@ -89,7 +89,8 @@
     $drakevar7 = prompt($prompt7);
 
 
-$drakeequationL = eval('return'.$drakevar1.'*'.$drakevar2.'*'.$drakevar3.'*'.$drakevar4.'*'.$drakevar7 ';');
+$l = "$drakevar1*$drakevar2*$drakevar3*$drakevar4*$drakevar7"
+$drakeequationL = eval ('return'.$l.';');
 
 echo ("$drakeequationL");
 
